@@ -25,7 +25,7 @@ discrim='discrim_score'
 ########
 src='cyclegta5'
 tgt='cityscapes'
-datadir='/x/'
+datadir='/home/MSAI/szhang064/images'
 
 
 resdir="results/${src}_to_${tgt}/adda_sgd/${weight_share}_nolsgan_${discrim}"
@@ -37,11 +37,12 @@ baseiter=115000
 #baseiter=100000
 
 
-base_model="base_models/${model}-${src}-iter${baseiter}.pth"
+base_model="base_models/${model}-gta5-iter${baseiter}.pth"
 outdir="${resdir}/${model}/lr${lr}_crop${crop}_ld${lambda_d}_lg${lambda_g}_momentum${momentum}"
 
 # Run python script #
-CUDA_VISIBLE_DEVICES=${gpu} python scripts/train_fcn_adda.py \
+CUDA_VISIBLE_DEVICES=${gpu} \
+python scripts/train_fcn_adda.py \
     ${outdir} \
     --dataset ${src} --dataset ${tgt} --datadir ${datadir} \
     --lr ${lr} --momentum ${momentum} --gpu 0 \

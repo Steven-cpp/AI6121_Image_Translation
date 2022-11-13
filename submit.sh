@@ -6,8 +6,8 @@
 #SBATCH --mem=8G
 #SBATCH --gres=gpu:1
 #SBATCH --qos=q_msai
-#SBATCH -o ./logs/job.%j.out
-#SBATCH -e ./logs/error_%x_%j.err
+#SBATCH -o ./logs/job.out
+#SBATCH -e ./logs/error.err
 
 source activate cycada
-python main.py
+./scripts/train_fcn_adda.sh

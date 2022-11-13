@@ -20,6 +20,7 @@ class AddaDataLoader(object):
         self.num_workers = num_workers
         assert len(self.dataset)==2, 'Requires two datasets: source, target'
         sourcedir = os.path.join(rootdir, self.dataset[0])
+        print("sourceDir = %s" % sourcedir)
         targetdir = os.path.join(rootdir, self.dataset[1])
         self.source = get_transform_dataset(self.dataset[0], sourcedir, 
                 net_transform, downscale) 

@@ -1,0 +1,7 @@
+curDir is: /home/MSAI/szhang064/cycada
+Train Discrim Only False
+Using state dict from base_models/drn26-gta5-iter115000.pth
+Loading full model
+discrim_feat False 19
+discriminator init weights:  None
+sourceDir = /home/MSAI/szhang064/images/cyclegta5

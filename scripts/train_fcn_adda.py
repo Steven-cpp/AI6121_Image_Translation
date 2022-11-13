@@ -2,27 +2,24 @@ import logging
 import os
 import os.path
 from collections import deque
-import itertools
 from datetime import datetime
 
 import click
 import numpy as np
 import torch
-import torch.nn as nn
 import torch.nn.functional as F
-import torchvision
 from tensorboardX import SummaryWriter
-
-from PIL import Image
 from torch.autograd import Variable
 
+import sys
+sys.path.insert(1, '/home/MSAI/szhang064/cycada')
 from cycada.data.adda_datasets import AddaDataLoader
+from cycada.models import Discriminator
 from cycada.models import get_model
 from cycada.models.models import models
-from cycada.models import VGG16_FCN8s, Discriminator
-from cycada.util import config_logging
-from cycada.util import to_tensor_raw
 from cycada.tools.util import make_variable
+from cycada.util import config_logging
+
 
 def check_label(label, num_cls):
     "Check that no labels are out of range"
@@ -94,7 +91,8 @@ def seg_accuracy(score, label, num_cls):
 @click.option('--cls_weights', type=click.Path(exists=True))
 @click.option('--weights_discrim', type=click.Path(exists=True))
 @click.option('--weights_init', type=click.Path(exists=True))
-@click.option('--model', default='fcn8s', type=click.Choice(models.keys()))
+@click.option('--model', default='fcn8s', type=str)
+# @click.option('--model', default='fcn8s', type=click.Choice(models.keys()))
 @click.option('--lsgan/--no_lsgan', default=False)
 @click.option('--num_cls', type=int, default=19)
 @click.option('--gpu', default='0')
@@ -110,12 +108,12 @@ def main(output, dataset, datadir, lr, momentum, snapshot, downscale, cls_weight
         weights_init, num_cls, lsgan, max_iter, lambda_d, lambda_g,
         train_discrim_only, weights_discrim, crop_size, weights_shared,
         discrim_feat, half_crop, batch, model):
-    
+
+    print("curDir is: %s" %(os.getcwd()))
     # So data is sampled in consistent way
     np.random.seed(1337)
     torch.manual_seed(1337)
-    logdir = 'runs/{:s}/{:s}_to_{:s}/lr{:.1g}_ld{:.2g}_lg{:.2g}'.format(model, dataset[0],
-            dataset[1], lr, lambda_d, lambda_g)
+    logdir = 'runs/{:s}/{:s}_to_{:s}'.format(model, dataset[0],dataset[1])
     if weights_shared:
         logdir += '_weightshared'
     else:
@@ -124,7 +122,7 @@ def main(output, dataset, datadir, lr, momentum, snapshot, downscale, cls_weight
         logdir += '_discrimfeat'
     else:
         logdir += '_discrimscore'
-    logdir += '/' + datetime.now().strftime('%Y_%b_%d-%H:%M')
+    logdir += '/' + datetime.now().strftime('%%b_%d-%H_%M')
     writer = SummaryWriter(log_dir=logdir)
 
 
