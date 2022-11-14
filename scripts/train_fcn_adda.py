@@ -91,8 +91,7 @@ def seg_accuracy(score, label, num_cls):
 @click.option('--cls_weights', type=click.Path(exists=True))
 @click.option('--weights_discrim', type=click.Path(exists=True))
 @click.option('--weights_init', type=click.Path(exists=True))
-@click.option('--model', default='fcn8s', type=str)
-# @click.option('--model', default='fcn8s', type=click.Choice(models.keys()))
+@click.option('--model', default='fcn8s', type=click.Choice(models.keys()))
 @click.option('--lsgan/--no_lsgan', default=False)
 @click.option('--num_cls', type=int, default=19)
 @click.option('--gpu', default='0')
@@ -260,7 +259,7 @@ def main(output, dataset, datadir, lr, momentum, snapshot, downscale, cls_weight
             # Optimize Target Network #
             ###########################
            
-            dom_acc_thresh = 60
+            dom_acc_thresh = 55
 
             if not train_discrim_only and np.mean(accuracies_dom) > dom_acc_thresh:
               

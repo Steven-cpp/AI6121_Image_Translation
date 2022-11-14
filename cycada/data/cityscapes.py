@@ -64,6 +64,7 @@ class Cityscapes(data.Dataset):
             for filename in filenames:
                 if filename.endswith('.png'):
                     ids.append('_'.join(filename.split('_')[:3]))
+                    # ids.append(filename.split('_')[:2])
         return ids
 
     def img_path(self, id):

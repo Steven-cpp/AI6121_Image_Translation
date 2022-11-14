@@ -4,4 +4,540 @@ Using state dict from base_models/drn26-gta5-iter115000.pth
 Loading full model
 discrim_feat False 19
 discriminator init weights:  None
-sourceDir = /home/MSAI/szhang064/images/cyclegta5
+sourceDir = /home/MSAI/szhang064/Dataset/cyclegta5
+Source length: 2025 Target length: 2975
+dataset ('cyclegta5', 'cityscapes')
+max iter: 100000
+restarting source dataset
+restarting target dataset
+Updating G with adversarial loss (1 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (2 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (3 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (4 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (5 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (6 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (7 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (8 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (9 times)
+Updating G using source supervised loss.
+[2022-11-14 10:12:49,569] [32mINFO    [0m Iteration 10:  domacc:53.1  D:0.921 clsT:1.16 acc:73.38  mIoU:99.05[0m
+Updating G with adversarial loss (10 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (11 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (12 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (13 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (14 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (15 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (16 times)
+Updating G using source supervised loss.
+[2022-11-14 10:12:55,507] [32mINFO    [0m Iteration 20:  domacc:55.5  D:0.855 G:1.544 clsS:1.95 clsT:1.12 acc:80.02  mIoU:98.32[0m
+Updating G with adversarial loss (17 times)
+Updating G using source supervised loss.
+[2022-11-14 10:12:59,237] [32mINFO    [0m Iteration 30:  domacc:54.5  D:0.870 clsT:0.90 acc:80.93  mIoU:97.48[0m
+[2022-11-14 10:13:02,868] [32mINFO    [0m Iteration 40:  domacc:54.4  D:0.841 clsT:0.97 acc:83.66  mIoU:96.80[0m
+[2022-11-14 10:13:06,413] [32mINFO    [0m Iteration 50:  domacc:53.7  D:0.850 clsT:0.99 acc:81.03  mIoU:96.01[0m
+[2022-11-14 10:13:10,118] [32mINFO    [0m Iteration 60:  domacc:52.1  D:0.863 clsT:1.07 acc:82.35  mIoU:95.33[0m
+[2022-11-14 10:13:13,705] [32mINFO    [0m Iteration 70:  domacc:52.1  D:0.852 clsT:1.07 acc:82.66  mIoU:94.54[0m
+[2022-11-14 10:13:17,252] [32mINFO    [0m Iteration 80:  domacc:53.5  D:0.831 clsT:1.00 acc:83.38  mIoU:93.75[0m
+[2022-11-14 10:13:20,968] [32mINFO    [0m Iteration 90:  domacc:53.5  D:0.825 clsT:0.99 acc:83.07  mIoU:93.02[0m
+[2022-11-14 10:13:24,534] [32mINFO    [0m Iteration 100:  domacc:52.6  D:0.830 clsT:0.96 acc:83.21  mIoU:92.28[0m
+[2022-11-14 10:13:28,069] [32mINFO    [0m Iteration 110:  domacc:52.9  D:0.816 clsT:0.92 acc:83.03  mIoU:91.55[0m
+[2022-11-14 10:13:31,659] [32mINFO    [0m Iteration 120:  domacc:52.3  D:0.820 clsT:0.91 acc:83.01  mIoU:90.87[0m
+[2022-11-14 10:13:35,347] [32mINFO    [0m Iteration 130:  domacc:51.0  D:0.827 clsT:1.01 acc:80.03  mIoU:90.03[0m
+[2022-11-14 10:13:38,952] [32mINFO    [0m Iteration 140:  domacc:50.9  D:0.832 clsT:0.96 acc:80.36  mIoU:89.19[0m
+[2022-11-14 10:13:42,575] [32mINFO    [0m Iteration 150:  domacc:51.3  D:0.818 clsT:0.95 acc:81.12  mIoU:88.30[0m
+[2022-11-14 10:13:46,079] [32mINFO    [0m Iteration 160:  domacc:51.9  D:0.809 clsT:0.89 acc:81.16  mIoU:87.72[0m
+[2022-11-14 10:13:49,719] [32mINFO    [0m Iteration 170:  domacc:51.9  D:0.806 clsT:0.88 acc:80.43  mIoU:86.93[0m
+[2022-11-14 10:13:53,394] [32mINFO    [0m Iteration 180:  domacc:50.8  D:0.820 clsT:0.90 acc:80.93  mIoU:86.25[0m
+[2022-11-14 10:13:57,004] [32mINFO    [0m Iteration 190:  domacc:51.3  D:0.813 clsT:0.95 acc:81.59  mIoU:85.62[0m
+[2022-11-14 10:14:00,517] [32mINFO    [0m Iteration 200:  domacc:50.5  D:0.824 clsT:0.99 acc:81.44  mIoU:84.83[0m
+[2022-11-14 10:14:04,055] [32mINFO    [0m Iteration 210:  domacc:51.2  D:0.812 clsT:1.00 acc:81.73  mIoU:83.89[0m
+[2022-11-14 10:14:07,726] [32mINFO    [0m Iteration 220:  domacc:50.5  D:0.810 clsT:0.95 acc:81.76  mIoU:83.00[0m
+[2022-11-14 10:14:11,421] [32mINFO    [0m Iteration 230:  domacc:51.1  D:0.796 clsT:0.91 acc:81.34  mIoU:82.00[0m
+[2022-11-14 10:14:15,021] [32mINFO    [0m Iteration 240:  domacc:50.8  D:0.798 clsT:0.94 acc:81.86  mIoU:81.11[0m
+[2022-11-14 10:14:18,525] [32mINFO    [0m Iteration 250:  domacc:50.1  D:0.808 clsT:0.97 acc:82.17  mIoU:80.21[0m
+[2022-11-14 10:14:22,203] [32mINFO    [0m Iteration 260:  domacc:50.0  D:0.806 clsT:0.97 acc:81.32  mIoU:79.43[0m
+[2022-11-14 10:14:25,838] [32mINFO    [0m Iteration 270:  domacc:50.7  D:0.799 clsT:0.99 acc:80.33  mIoU:78.48[0m
+[2022-11-14 10:14:29,395] [32mINFO    [0m Iteration 280:  domacc:50.5  D:0.795 clsT:0.98 acc:80.46  mIoU:77.64[0m
+[2022-11-14 10:14:33,059] [32mINFO    [0m Iteration 290:  domacc:49.6  D:0.798 clsT:0.90 acc:80.65  mIoU:76.75[0m
+[2022-11-14 10:14:36,719] [32mINFO    [0m Iteration 300:  domacc:49.7  D:0.787 clsT:0.89 acc:81.05  mIoU:75.96[0m
+[2022-11-14 10:14:40,413] [32mINFO    [0m Iteration 310:  domacc:47.9  D:0.813 clsT:0.87 acc:80.71  mIoU:75.17[0m
+[2022-11-14 10:14:43,818] [32mINFO    [0m Iteration 320:  domacc:48.0  D:0.816 clsT:0.86 acc:80.65  mIoU:74.44[0m
+[2022-11-14 10:14:47,437] [32mINFO    [0m Iteration 330:  domacc:48.7  D:0.811 clsT:0.83 acc:81.02  mIoU:73.76[0m
+[2022-11-14 10:14:51,089] [32mINFO    [0m Iteration 340:  domacc:49.4  D:0.802 clsT:0.88 acc:81.12  mIoU:72.81[0m
+[2022-11-14 10:14:54,653] [32mINFO    [0m Iteration 350:  domacc:49.5  D:0.793 clsT:0.87 acc:80.76  mIoU:71.92[0m
+[2022-11-14 10:14:58,256] [32mINFO    [0m Iteration 360:  domacc:50.0  D:0.789 clsT:0.87 acc:80.75  mIoU:71.03[0m
+[2022-11-14 10:15:01,861] [32mINFO    [0m Iteration 370:  domacc:50.4  D:0.785 clsT:0.83 acc:80.87  mIoU:70.24[0m
+[2022-11-14 10:15:05,561] [32mINFO    [0m Iteration 380:  domacc:50.1  D:0.789 clsT:0.85 acc:81.02  mIoU:69.50[0m
+[2022-11-14 10:15:09,160] [32mINFO    [0m Iteration 390:  domacc:50.5  D:0.793 clsT:0.90 acc:81.18  mIoU:68.77[0m
+[2022-11-14 10:15:12,716] [32mINFO    [0m Iteration 400:  domacc:50.8  D:0.790 clsT:0.88 acc:81.46  mIoU:67.88[0m
+[2022-11-14 10:15:16,290] [32mINFO    [0m Iteration 410:  domacc:52.4  D:0.766 clsT:0.94 acc:81.13  mIoU:67.04[0m
+[2022-11-14 10:15:19,858] [32mINFO    [0m Iteration 420:  domacc:52.7  D:0.755 clsT:1.00 acc:81.29  mIoU:66.20[0m
+[2022-11-14 10:15:23,517] [32mINFO    [0m Iteration 430:  domacc:52.5  D:0.755 clsT:1.01 acc:81.22  mIoU:65.52[0m
+[2022-11-14 10:15:27,205] [32mINFO    [0m Iteration 440:  domacc:51.8  D:0.760 clsT:0.93 acc:81.12  mIoU:64.62[0m
+[2022-11-14 10:15:30,994] [32mINFO    [0m Iteration 450:  domacc:51.8  D:0.762 clsT:0.90 acc:81.30  mIoU:63.79[0m
+[2022-11-14 10:15:34,685] [32mINFO    [0m Iteration 460:  domacc:52.1  D:0.758 clsT:0.88 acc:81.21  mIoU:62.84[0m
+[2022-11-14 10:15:38,231] [32mINFO    [0m Iteration 470:  domacc:51.4  D:0.762 clsT:0.88 acc:81.40  mIoU:61.95[0m
+[2022-11-14 10:15:41,724] [32mINFO    [0m Iteration 480:  domacc:51.5  D:0.757 clsT:0.90 acc:81.44  mIoU:61.06[0m
+[2022-11-14 10:15:45,331] [32mINFO    [0m Iteration 490:  domacc:50.3  D:0.757 clsT:0.92 acc:80.59  mIoU:60.21[0m
+[2022-11-14 10:15:49,807] [32mINFO    [0m Iteration 500:  domacc:50.4  D:0.756 clsT:0.97 acc:80.69  mIoU:59.37[0m
+[2022-11-14 10:15:53,420] [32mINFO    [0m Iteration 510:  domacc:49.5  D:0.762 clsT:0.95 acc:80.63  mIoU:58.48[0m
+[2022-11-14 10:15:56,986] [32mINFO    [0m Iteration 520:  domacc:49.5  D:0.762 clsT:0.94 acc:80.72  mIoU:57.85[0m
+[2022-11-14 10:16:00,570] [32mINFO    [0m Iteration 530:  domacc:50.3  D:0.752 clsT:0.97 acc:80.99  mIoU:57.06[0m
+[2022-11-14 10:16:04,060] [32mINFO    [0m Iteration 540:  domacc:51.2  D:0.742 clsT:1.00 acc:80.96  mIoU:56.28[0m
+[2022-11-14 10:16:07,579] [32mINFO    [0m Iteration 550:  domacc:52.5  D:0.727 clsT:1.03 acc:80.41  mIoU:55.33[0m
+[2022-11-14 10:16:11,216] [32mINFO    [0m Iteration 560:  domacc:52.4  D:0.725 clsT:1.00 acc:80.50  mIoU:54.33[0m
+[2022-11-14 10:16:14,771] [32mINFO    [0m Iteration 570:  domacc:52.2  D:0.729 clsT:1.02 acc:80.67  mIoU:53.60[0m
+[2022-11-14 10:16:18,397] [32mINFO    [0m Iteration 580:  domacc:52.5  D:0.728 clsT:1.05 acc:80.74  mIoU:52.76[0m
+[2022-11-14 10:16:21,987] [32mINFO    [0m Iteration 590:  domacc:54.3  D:0.719 clsT:1.00 acc:80.68  mIoU:51.97[0m
+[2022-11-14 10:16:25,570] [32mINFO    [0m Iteration 600:  domacc:54.8  D:0.713 clsT:1.00 acc:80.85  mIoU:51.18[0m
+Updating G with adversarial loss (18 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (19 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (20 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (21 times)
+Updating G using source supervised loss.
+[2022-11-14 10:16:30,528] [32mINFO    [0m Iteration 610:  domacc:55.7  D:0.707 G:1.399 clsS:1.79 clsT:0.95 acc:80.80  mIoU:50.34[0m
+Updating G with adversarial loss (22 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (23 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (24 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (25 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (26 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (27 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (28 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (29 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (30 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (31 times)
+Updating G using source supervised loss.
+[2022-11-14 10:16:37,512] [32mINFO    [0m Iteration 620:  domacc:56.4  D:0.705 G:1.167 clsS:1.82 clsT:0.92 acc:80.95  mIoU:49.61[0m
+Updating G with adversarial loss (32 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (33 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (34 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (35 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (36 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (37 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (38 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (39 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (40 times)
+Updating G using source supervised loss.
+[2022-11-14 10:16:44,135] [32mINFO    [0m Iteration 630:  domacc:55.0  D:0.716 clsT:0.88 acc:80.86  mIoU:48.77[0m
+[2022-11-14 10:16:47,656] [32mINFO    [0m Iteration 640:  domacc:54.3  D:0.721 clsT:0.87 acc:81.01  mIoU:47.98[0m
+[2022-11-14 10:16:51,174] [32mINFO    [0m Iteration 650:  domacc:53.1  D:0.729 clsT:0.84 acc:81.17  mIoU:47.25[0m
+[2022-11-14 10:16:54,667] [32mINFO    [0m Iteration 660:  domacc:52.4  D:0.733 clsT:0.87 acc:81.15  mIoU:46.46[0m
+[2022-11-14 10:16:58,104] [32mINFO    [0m Iteration 670:  domacc:51.7  D:0.737 clsT:0.87 acc:81.04  mIoU:45.57[0m
+[2022-11-14 10:17:01,574] [32mINFO    [0m Iteration 680:  domacc:52.3  D:0.728 clsT:0.81 acc:80.99  mIoU:44.68[0m
+[2022-11-14 10:17:05,113] [32mINFO    [0m Iteration 690:  domacc:52.1  D:0.730 clsT:0.83 acc:81.10  mIoU:43.89[0m
+[2022-11-14 10:17:08,767] [32mINFO    [0m Iteration 700:  domacc:51.5  D:0.733 clsT:0.77 acc:81.18  mIoU:43.15[0m
+[2022-11-14 10:17:12,196] [32mINFO    [0m Iteration 710:  domacc:50.7  D:0.736 clsT:0.80 acc:81.23  mIoU:42.26[0m
+[2022-11-14 10:17:15,945] [32mINFO    [0m Iteration 720:  domacc:51.5  D:0.729 clsT:0.81 acc:81.35  mIoU:41.47[0m
+[2022-11-14 10:17:19,491] [32mINFO    [0m Iteration 730:  domacc:52.7  D:0.721 clsT:0.80 acc:81.20  mIoU:40.63[0m
+[2022-11-14 10:17:23,096] [32mINFO    [0m Iteration 740:  domacc:52.3  D:0.726 clsT:0.80 acc:81.27  mIoU:39.79[0m
+[2022-11-14 10:17:26,732] [32mINFO    [0m Iteration 750:  domacc:52.5  D:0.725 clsT:0.86 acc:80.96  mIoU:38.85[0m
+[2022-11-14 10:17:30,393] [32mINFO    [0m Iteration 760:  domacc:53.5  D:0.720 clsT:0.88 acc:80.91  mIoU:38.06[0m
+[2022-11-14 10:17:33,978] [32mINFO    [0m Iteration 770:  domacc:53.8  D:0.715 clsT:0.87 acc:80.88  mIoU:37.27[0m
+[2022-11-14 10:17:37,368] [32mINFO    [0m Iteration 780:  domacc:54.2  D:0.714 clsT:0.91 acc:80.56  mIoU:36.49[0m
+[2022-11-14 10:17:40,934] [32mINFO    [0m Iteration 790:  domacc:54.4  D:0.712 clsT:0.91 acc:80.68  mIoU:35.75[0m
+Updating G with adversarial loss (41 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (42 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (43 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (44 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (45 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (46 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (47 times)
+Updating G using source supervised loss.
+[2022-11-14 10:17:46,990] [32mINFO    [0m Iteration 800:  domacc:55.2  D:0.708 G:1.001 clsS:1.77 clsT:0.93 acc:80.75  mIoU:34.96[0m
+Updating G with adversarial loss (48 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (49 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (50 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (51 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (52 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (53 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (54 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (55 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (56 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (57 times)
+Updating G using source supervised loss.
+[2022-11-14 10:17:54,053] [32mINFO    [0m Iteration 810:  domacc:56.1  D:0.703 G:0.964 clsS:1.63 clsT:0.96 acc:80.74  mIoU:34.23[0m
+Updating G with adversarial loss (58 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (59 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (60 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (61 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (62 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (63 times)
+Updating G using source supervised loss.
+[2022-11-14 10:17:59,615] [32mINFO    [0m Iteration 820:  domacc:54.7  D:0.711 clsT:0.94 acc:80.79  mIoU:33.39[0m
+[2022-11-14 10:18:03,104] [32mINFO    [0m Iteration 830:  domacc:54.0  D:0.716 clsT:1.01 acc:80.77  mIoU:32.71[0m
+Updating G with adversarial loss (64 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (65 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (66 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (67 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (68 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (69 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (70 times)
+Updating G using source supervised loss.
+[2022-11-14 10:18:09,228] [32mINFO    [0m Iteration 840:  domacc:55.5  D:0.705 G:0.931 clsS:1.53 clsT:1.01 acc:80.57  mIoU:31.81[0m
+Updating G with adversarial loss (71 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (72 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (73 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (74 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (75 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (76 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (77 times)
+Updating G using source supervised loss.
+[2022-11-14 10:18:15,300] [32mINFO    [0m Iteration 850:  domacc:55.2  D:0.706 G:0.911 clsS:1.45 clsT:0.95 acc:80.70  mIoU:31.08[0m
+Updating G with adversarial loss (78 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (79 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (80 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (81 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (82 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (83 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (84 times)
+Updating G using source supervised loss.
+[2022-11-14 10:18:21,252] [32mINFO    [0m Iteration 860:  domacc:54.6  D:0.709 clsT:0.90 acc:80.77  mIoU:30.34[0m
+Updating G with adversarial loss (85 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (86 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (87 times)
+Updating G using source supervised loss.
+[2022-11-14 10:18:25,958] [32mINFO    [0m Iteration 870:  domacc:54.4  D:0.710 clsT:0.92 acc:80.86  mIoU:29.82[0m
+Updating G with adversarial loss (88 times)
+Updating G using source supervised loss.
+[2022-11-14 10:18:29,915] [32mINFO    [0m Iteration 880:  domacc:53.3  D:0.714 clsT:0.87 acc:80.54  mIoU:29.19[0m
+[2022-11-14 10:18:33,517] [32mINFO    [0m Iteration 890:  domacc:53.1  D:0.714 clsT:0.84 acc:80.44  mIoU:28.51[0m
+[2022-11-14 10:18:37,209] [32mINFO    [0m Iteration 900:  domacc:52.8  D:0.714 clsT:0.85 acc:80.49  mIoU:27.67[0m
+[2022-11-14 10:18:40,662] [32mINFO    [0m Iteration 910:  domacc:51.9  D:0.717 clsT:0.83 acc:80.40  mIoU:26.93[0m
+[2022-11-14 10:18:44,249] [32mINFO    [0m Iteration 920:  domacc:53.0  D:0.713 clsT:0.86 acc:80.18  mIoU:26.35[0m
+[2022-11-14 10:18:47,775] [32mINFO    [0m Iteration 930:  domacc:51.9  D:0.715 clsT:0.82 acc:80.13  mIoU:25.62[0m
+[2022-11-14 10:18:51,296] [32mINFO    [0m Iteration 940:  domacc:51.5  D:0.716 clsT:0.80 acc:80.03  mIoU:24.88[0m
+[2022-11-14 10:18:54,975] [32mINFO    [0m Iteration 950:  domacc:52.2  D:0.712 clsT:0.80 acc:80.04  mIoU:24.20[0m
+[2022-11-14 10:18:58,598] [32mINFO    [0m Iteration 960:  domacc:52.1  D:0.713 clsT:0.81 acc:80.06  mIoU:23.52[0m
+[2022-11-14 10:19:02,296] [32mINFO    [0m Iteration 970:  domacc:53.1  D:0.708 clsT:0.80 acc:79.96  mIoU:22.73[0m
+[2022-11-14 10:19:05,922] [32mINFO    [0m Iteration 980:  domacc:53.2  D:0.707 clsT:0.79 acc:79.96  mIoU:22.15[0m
+[2022-11-14 10:19:09,534] [32mINFO    [0m Iteration 990:  domacc:53.6  D:0.707 clsT:0.80 acc:79.88  mIoU:21.31[0m
+[2022-11-14 10:19:13,838] [32mINFO    [0m Iteration 1000:  domacc:53.0  D:0.709 clsT:0.78 acc:79.65  mIoU:20.47[0m
+[2022-11-14 10:19:17,353] [32mINFO    [0m Iteration 1010:  domacc:53.2  D:0.708 clsT:0.76 acc:79.67  mIoU:20.79[0m
+[2022-11-14 10:19:20,921] [32mINFO    [0m Iteration 1020:  domacc:52.1  D:0.710 clsT:0.75 acc:79.69  mIoU:21.00[0m
+[2022-11-14 10:19:24,509] [32mINFO    [0m Iteration 1030:  domacc:53.4  D:0.706 clsT:0.76 acc:79.61  mIoU:21.10[0m
+[2022-11-14 10:19:28,081] [32mINFO    [0m Iteration 1040:  domacc:52.1  D:0.713 clsT:0.74 acc:79.59  mIoU:21.00[0m
+[2022-11-14 10:19:31,739] [32mINFO    [0m Iteration 1050:  domacc:51.9  D:0.716 clsT:0.78 acc:79.61  mIoU:21.00[0m
+[2022-11-14 10:19:35,403] [32mINFO    [0m Iteration 1060:  domacc:52.5  D:0.715 clsT:0.75 acc:79.53  mIoU:20.89[0m
+[2022-11-14 10:19:38,952] [32mINFO    [0m Iteration 1070:  domacc:53.0  D:0.713 clsT:0.79 acc:79.53  mIoU:21.05[0m
+[2022-11-14 10:19:42,578] [32mINFO    [0m Iteration 1080:  domacc:52.7  D:0.716 clsT:0.82 acc:79.17  mIoU:21.15[0m
+[2022-11-14 10:19:46,162] [32mINFO    [0m Iteration 1090:  domacc:51.1  D:0.719 clsT:0.82 acc:79.04  mIoU:21.05[0m
+[2022-11-14 10:19:49,742] [32mINFO    [0m Iteration 1100:  domacc:51.0  D:0.720 clsT:0.82 acc:78.91  mIoU:21.05[0m
+[2022-11-14 10:19:53,435] [32mINFO    [0m Iteration 1110:  domacc:51.6  D:0.717 clsT:0.90 acc:78.65  mIoU:20.99[0m
+[2022-11-14 10:19:57,046] [32mINFO    [0m Iteration 1120:  domacc:52.5  D:0.715 clsT:0.92 acc:78.39  mIoU:20.83[0m
+[2022-11-14 10:20:00,678] [32mINFO    [0m Iteration 1130:  domacc:53.2  D:0.710 clsT:0.90 acc:78.51  mIoU:20.94[0m
+[2022-11-14 10:20:04,319] [32mINFO    [0m Iteration 1140:  domacc:52.8  D:0.710 clsT:0.91 acc:78.46  mIoU:20.94[0m
+[2022-11-14 10:20:08,113] [32mINFO    [0m Iteration 1150:  domacc:53.5  D:0.706 clsT:0.91 acc:78.31  mIoU:21.25[0m
+[2022-11-14 10:20:11,762] [32mINFO    [0m Iteration 1160:  domacc:53.7  D:0.703 clsT:0.94 acc:78.03  mIoU:21.04[0m
+[2022-11-14 10:20:15,193] [32mINFO    [0m Iteration 1170:  domacc:52.6  D:0.706 clsT:0.94 acc:77.98  mIoU:21.31[0m
+[2022-11-14 10:20:18,841] [32mINFO    [0m Iteration 1180:  domacc:52.5  D:0.706 clsT:0.90 acc:77.91  mIoU:21.36[0m
+[2022-11-14 10:20:22,499] [32mINFO    [0m Iteration 1190:  domacc:53.8  D:0.702 clsT:0.90 acc:77.79  mIoU:21.30[0m
+[2022-11-14 10:20:25,963] [32mINFO    [0m Iteration 1200:  domacc:54.6  D:0.698 clsT:0.88 acc:77.45  mIoU:21.25[0m
+[2022-11-14 10:20:29,547] [32mINFO    [0m Iteration 1210:  domacc:54.2  D:0.701 clsT:0.84 acc:77.46  mIoU:21.46[0m
+[2022-11-14 10:20:33,162] [32mINFO    [0m Iteration 1220:  domacc:54.3  D:0.701 clsT:0.84 acc:77.41  mIoU:21.51[0m
+[2022-11-14 10:20:36,716] [32mINFO    [0m Iteration 1230:  domacc:54.6  D:0.700 clsT:0.84 acc:77.28  mIoU:21.78[0m
+Updating G with adversarial loss (89 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (90 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (91 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (92 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (93 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (94 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (95 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (96 times)
+Updating G using source supervised loss.
+[2022-11-14 10:20:42,973] [32mINFO    [0m Iteration 1240:  domacc:56.4  D:0.694 G:0.868 clsS:1.34 clsT:0.85 acc:77.13  mIoU:22.14[0m
+Updating G with adversarial loss (97 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (98 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (99 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (100 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (101 times)
+Updating G using source supervised loss.
+[2022-11-14 10:20:48,055] [32mINFO    [0m Iteration 1250:  domacc:54.2  D:0.701 clsT:0.85 acc:77.04  mIoU:22.19[0m
+[2022-11-14 10:20:51,616] [32mINFO    [0m Iteration 1260:  domacc:53.0  D:0.703 clsT:0.87 acc:76.54  mIoU:22.30[0m
+[2022-11-14 10:20:55,254] [32mINFO    [0m Iteration 1270:  domacc:52.8  D:0.704 clsT:0.87 acc:76.59  mIoU:22.61[0m
+[2022-11-14 10:20:58,878] [32mINFO    [0m Iteration 1280:  domacc:51.5  D:0.712 clsT:0.89 acc:76.24  mIoU:22.72[0m
+[2022-11-14 10:21:02,388] [32mINFO    [0m Iteration 1290:  domacc:50.7  D:0.716 clsT:0.90 acc:76.20  mIoU:22.88[0m
+[2022-11-14 10:21:06,048] [32mINFO    [0m Iteration 1300:  domacc:50.8  D:0.714 clsT:0.91 acc:75.91  mIoU:22.87[0m
+[2022-11-14 10:21:09,598] [32mINFO    [0m Iteration 1310:  domacc:49.9  D:0.717 clsT:0.87 acc:76.02  mIoU:23.14[0m
+[2022-11-14 10:21:13,230] [32mINFO    [0m Iteration 1320:  domacc:49.1  D:0.718 clsT:0.85 acc:75.93  mIoU:23.14[0m
+[2022-11-14 10:21:16,893] [32mINFO    [0m Iteration 1330:  domacc:48.5  D:0.720 clsT:0.89 acc:75.73  mIoU:23.08[0m
+[2022-11-14 10:21:20,525] [32mINFO    [0m Iteration 1340:  domacc:47.6  D:0.723 clsT:0.86 acc:75.79  mIoU:23.45[0m
+[2022-11-14 10:21:24,072] [32mINFO    [0m Iteration 1350:  domacc:49.9  D:0.715 clsT:0.85 acc:76.04  mIoU:23.82[0m
+[2022-11-14 10:21:27,770] [32mINFO    [0m Iteration 1360:  domacc:50.0  D:0.718 clsT:0.83 acc:76.15  mIoU:24.14[0m
+[2022-11-14 10:21:31,307] [32mINFO    [0m Iteration 1370:  domacc:50.2  D:0.718 clsT:0.84 acc:76.05  mIoU:24.40[0m
+[2022-11-14 10:21:34,771] [32mINFO    [0m Iteration 1380:  domacc:51.1  D:0.713 clsT:0.82 acc:76.05  mIoU:24.40[0m
+[2022-11-14 10:21:38,384] [32mINFO    [0m Iteration 1390:  domacc:50.5  D:0.715 clsT:0.83 acc:75.76  mIoU:24.34[0m
+[2022-11-14 10:21:42,023] [32mINFO    [0m Iteration 1400:  domacc:49.9  D:0.718 clsT:0.82 acc:75.64  mIoU:24.50[0m
+[2022-11-14 10:21:45,642] [32mINFO    [0m Iteration 1410:  domacc:50.9  D:0.714 clsT:0.83 acc:75.87  mIoU:24.71[0m
+[2022-11-14 10:21:49,203] [32mINFO    [0m Iteration 1420:  domacc:50.9  D:0.718 clsT:0.83 acc:75.82  mIoU:24.97[0m
+[2022-11-14 10:21:52,764] [32mINFO    [0m Iteration 1430:  domacc:50.6  D:0.719 clsT:0.77 acc:75.89  mIoU:24.97[0m
+[2022-11-14 10:21:56,479] [32mINFO    [0m Iteration 1440:  domacc:51.3  D:0.716 clsT:0.80 acc:75.70  mIoU:25.18[0m
+[2022-11-14 10:22:00,056] [32mINFO    [0m Iteration 1450:  domacc:51.7  D:0.716 clsT:0.77 acc:75.69  mIoU:25.45[0m
+[2022-11-14 10:22:03,688] [32mINFO    [0m Iteration 1460:  domacc:52.3  D:0.711 clsT:0.78 acc:75.43  mIoU:25.76[0m
+[2022-11-14 10:22:07,479] [32mINFO    [0m Iteration 1470:  domacc:52.2  D:0.710 clsT:0.76 acc:75.28  mIoU:26.07[0m
+[2022-11-14 10:22:11,083] [32mINFO    [0m Iteration 1480:  domacc:52.7  D:0.706 clsT:0.79 acc:74.97  mIoU:26.28[0m
+[2022-11-14 10:22:14,623] [32mINFO    [0m Iteration 1490:  domacc:54.0  D:0.701 clsT:0.76 acc:75.41  mIoU:26.50[0m
+Updating G with adversarial loss (102 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:19,348] [32mINFO    [0m Iteration 1500:  domacc:54.8  D:0.700 clsT:0.78 acc:75.36  mIoU:26.50[0m
+Updating G with adversarial loss (103 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (104 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (105 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (106 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (107 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:24,725] [32mINFO    [0m Iteration 1510:  domacc:55.5  D:0.695 G:0.816 clsS:1.20 clsT:0.76 acc:75.31  mIoU:26.65[0m
+Updating G with adversarial loss (108 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (109 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (110 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (111 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (112 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (113 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (114 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:30,639] [32mINFO    [0m Iteration 1520:  domacc:55.0  D:0.695 clsT:0.79 acc:75.16  mIoU:26.60[0m
+Updating G with adversarial loss (115 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (116 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (117 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (118 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (119 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (120 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (121 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:36,690] [32mINFO    [0m Iteration 1530:  domacc:56.1  D:0.691 G:0.721 clsS:1.10 clsT:0.82 acc:74.95  mIoU:26.86[0m
+Updating G with adversarial loss (122 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (123 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (124 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (125 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (126 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (127 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (128 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (129 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (130 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (131 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:43,628] [32mINFO    [0m Iteration 1540:  domacc:56.6  D:0.690 G:0.726 clsS:1.04 clsT:0.82 acc:74.72  mIoU:26.81[0m
+Updating G with adversarial loss (132 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (133 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (134 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (135 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (136 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (137 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:49,149] [32mINFO    [0m Iteration 1550:  domacc:54.1  D:0.697 clsT:0.82 acc:75.02  mIoU:27.18[0m
+Updating G with adversarial loss (138 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (139 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (140 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (141 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (142 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:54,449] [32mINFO    [0m Iteration 1560:  domacc:55.2  D:0.694 G:0.725 clsS:0.96 clsT:0.83 acc:75.00  mIoU:27.49[0m
+Updating G with adversarial loss (143 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (144 times)
+Updating G using source supervised loss.
+[2022-11-14 10:22:58,723] [32mINFO    [0m Iteration 1570:  domacc:54.4  D:0.696 clsT:0.80 acc:74.86  mIoU:27.65[0m
+Updating G with adversarial loss (145 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (146 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (147 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (148 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (149 times)
+Updating G using source supervised loss.
+[2022-11-14 10:23:04,022] [32mINFO    [0m Iteration 1580:  domacc:55.5  D:0.692 G:0.721 clsS:0.89 clsT:0.80 acc:74.76  mIoU:27.75[0m
+Updating G with adversarial loss (150 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (151 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (152 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (153 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (154 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (155 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (156 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (157 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (158 times)
+Updating G using source supervised loss.
+[2022-11-14 10:23:10,554] [32mINFO    [0m Iteration 1590:  domacc:54.7  D:0.696 clsT:0.80 acc:74.69  mIoU:28.12[0m
+Updating G with adversarial loss (159 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (160 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (161 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (162 times)
+Updating G using source supervised loss.
+Updating G with adversarial loss (163 times)
+Updating G using source supervised loss.
+[2022-11-14 10:23:15,821] [32mINFO    [0m Iteration 1600:  domacc:55.3  D:0.691 G:0.708 clsS:0.87 clsT:0.79 acc:74.27  mIoU:28.12[0m
+Updating G with adversarial loss (164 times)
+Updating G using source supervised loss.
+[2022-11-14 10:23:19,688] [32mINFO    [0m Iteration 1610:  domacc:54.0  D:0.695 clsT:0.81 acc:73.99  mIoU:28.38[0m
+[2022-11-14 10:23:23,253] [32mINFO    [0m Iteration 1620:  domacc:53.4  D:0.697 clsT:0.78 acc:73.83  mIoU:28.54[0m
+[2022-11-14 10:23:26,853] [32mINFO    [0m Iteration 1630:  domacc:52.6  D:0.701 clsT:0.78 acc:73.84  mIoU:28.75[0m
+[2022-11-14 10:23:30,466] [32mINFO    [0m Iteration 1640:  domacc:51.8  D:0.703 clsT:0.80 acc:73.80  mIoU:29.01[0m
+[2022-11-14 10:23:34,199] [32mINFO    [0m Iteration 1650:  domacc:53.9  D:0.697 clsT:0.80 acc:73.75  mIoU:29.06[0m
+[2022-11-14 10:23:37,843] [32mINFO    [0m Iteration 1660:  domacc:52.0  D:0.704 clsT:0.78 acc:73.76  mIoU:29.27[0m
+[2022-11-14 10:23:41,518] [32mINFO    [0m Iteration 1670:  domacc:53.3  D:0.700 clsT:0.82 acc:73.67  mIoU:29.48[0m
+[2022-11-14 10:23:45,150] [32mINFO    [0m Iteration 1680:  domacc:53.0  D:0.701 clsT:0.81 acc:73.33  mIoU:29.90[0m
+[2022-11-14 10:23:48,840] [32mINFO    [0m Iteration 1690:  domacc:54.3  D:0.694 clsT:0.81 acc:73.36  mIoU:30.01[0m
+[2022-11-14 10:23:52,483] [32mINFO    [0m Iteration 1700:  domacc:52.6  D:0.701 clsT:0.82 acc:73.21  mIoU:30.01[0m
+[2022-11-14 10:23:56,232] [32mINFO    [0m Iteration 1710:  domacc:52.3  D:0.704 clsT:0.81 acc:73.00  mIoU:30.11[0m
+[2022-11-14 10:24:00,036] [32mINFO    [0m Iteration 1720:  domacc:52.7  D:0.703 clsT:0.81 acc:72.94  mIoU:30.17[0m
+[2022-11-14 10:24:03,822] [32mINFO    [0m Iteration 1730:  domacc:51.9  D:0.706 clsT:0.85 acc:72.98  mIoU:30.38[0m
+[2022-11-14 10:24:07,425] [32mINFO    [0m Iteration 1740:  domacc:52.3  D:0.705 clsT:0.86 acc:72.90  mIoU:30.48[0m
+[2022-11-14 10:24:11,007] [32mINFO    [0m Iteration 1750:  domacc:51.0  D:0.708 clsT:0.84 acc:73.16  mIoU:30.80[0m
+[2022-11-14 10:24:14,631] [32mINFO    [0m Iteration 1760:  domacc:50.8  D:0.711 clsT:0.82 acc:73.17  mIoU:30.85[0m
+[2022-11-14 10:24:18,291] [32mINFO    [0m Iteration 1770:  domacc:49.9  D:0.714 clsT:0.81 acc:72.96  mIoU:30.90[0m
+[2022-11-14 10:24:21,880] [32mINFO    [0m Iteration 1780:  domacc:49.3  D:0.716 clsT:0.87 acc:73.09  mIoU:31.06[0m
+[2022-11-14 10:24:25,736] [32mINFO    [0m Iteration 1790:  domacc:49.5  D:0.716 clsT:0.88 acc:73.05  mIoU:31.27[0m
+[2022-11-14 10:24:29,414] [32mINFO    [0m Iteration 1800:  domacc:50.5  D:0.712 clsT:0.88 acc:72.82  mIoU:31.58[0m
+[2022-11-14 10:24:33,125] [32mINFO    [0m Iteration 1810:  domacc:51.0  D:0.711 clsT:0.88 acc:72.87  mIoU:31.58[0m
+[2022-11-14 10:24:36,785] [32mINFO    [0m Iteration 1820:  domacc:50.9  D:0.710 clsT:0.93 acc:72.78  mIoU:31.85[0m
+[2022-11-14 10:24:40,399] [32mINFO    [0m Iteration 1830:  domacc:50.2  D:0.711 clsT:0.87 acc:72.82  mIoU:31.79[0m
+[2022-11-14 10:24:44,068] [32mINFO    [0m Iteration 1840:  domacc:49.4  D:0.713 clsT:0.86 acc:72.86  mIoU:32.00[0m
+[2022-11-14 10:24:47,737] [32mINFO    [0m Iteration 1850:  domacc:50.2  D:0.710 clsT:0.90 acc:72.65  mIoU:32.11[0m
+[2022-11-14 10:24:51,411] [32mINFO    [0m Iteration 1860:  domacc:49.3  D:0.711 clsT:0.90 acc:72.58  mIoU:32.32[0m
+[2022-11-14 10:24:54,994] [32mINFO    [0m Iteration 1870:  domacc:49.0  D:0.712 clsT:0.90 acc:72.25  mIoU:32.26[0m
+[2022-11-14 10:24:58,691] [32mINFO    [0m Iteration 1880:  domacc:49.8  D:0.710 clsT:0.86 acc:72.01  mIoU:32.16[0m
+[2022-11-14 10:25:02,438] [32mINFO    [0m Iteration 1890:  domacc:48.9  D:0.712 clsT:0.87 acc:71.96  mIoU:32.21[0m
+[2022-11-14 10:25:06,118] [32mINFO    [0m Iteration 1900:  domacc:48.6  D:0.713 clsT:0.89 acc:71.82  mIoU:32.63[0m
+[2022-11-14 10:25:09,844] [32mINFO    [0m Iteration 1910:  domacc:48.7  D:0.711 clsT:0.91 acc:71.77  mIoU:32.68[0m
+[2022-11-14 10:25:13,539] [32mINFO    [0m Iteration 1920:  domacc:49.4  D:0.708 clsT:0.86 acc:71.77  mIoU:32.42[0m
+[2022-11-14 10:25:17,193] [32mINFO    [0m Iteration 1930:  domacc:50.2  D:0.706 clsT:0.92 acc:71.70  mIoU:32.47[0m
+[2022-11-14 10:25:20,904] [32mINFO    [0m Iteration 1940:  domacc:50.0  D:0.706 clsT:0.93 acc:71.76  mIoU:32.69[0m
+[2022-11-14 10:25:24,590] [32mINFO    [0m Iteration 1950:  domacc:49.4  D:0.709 clsT:0.91 acc:71.51  mIoU:32.69[0m
+[2022-11-14 10:25:28,251] [32mINFO    [0m Iteration 1960:  domacc:50.5  D:0.704 clsT:0.92 acc:71.54  mIoU:32.74[0m
+[2022-11-14 10:25:31,973] [32mINFO    [0m Iteration 1970:  domacc:50.2  D:0.702 clsT:0.91 acc:71.70  mIoU:32.84[0m
+[2022-11-14 10:25:35,639] [32mINFO    [0m Iteration 1980:  domacc:51.0  D:0.702 clsT:0.94 acc:71.58  mIoU:32.69[0m
+[2022-11-14 10:25:39,490] [32mINFO    [0m Iteration 1990:  domacc:51.6  D:0.699 clsT:0.95 acc:71.74  mIoU:32.95[0m
+[2022-11-14 10:25:43,967] [32mINFO    [0m Iteration 2000:  domacc:50.8  D:0.703 clsT:0.93 acc:71.72  mIoU:33.16[0m
+[2022-11-14 10:25:47,484] [32mINFO    [0m Iteration 2010:  domacc:51.2  D:0.702 clsT:0.93 acc:71.87  mIoU:33.27[0m
+[2022-11-14 10:25:51,150] [32mINFO    [0m Iteration 2020:  domacc:52.6  D:0.700 clsT:0.92 acc:71.82  mIoU:33.11[0m
+restarting source dataset

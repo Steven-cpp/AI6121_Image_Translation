@@ -1,42 +1,5 @@
-/var/spool/slurmd/job64074/slurm_script: line 12: activate: No such file or directory
-Traceback (most recent call last):
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 39, in _open_file
-    return open(file_like, mode), True
-FileNotFoundError: [Errno 2] No such file or directory: '/home/MSAI/szhang064/images/cyclegta5/split.mat'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "scripts/train_fcn_adda.py", line 388, in <module>
-    main()
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/click/core.py", line 1130, in __call__
-    return self.main(*args, **kwargs)
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/click/core.py", line 1055, in main
-    rv = self.invoke(ctx)
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/click/core.py", line 760, in invoke
-    return __callback(*args, **kwargs)
-  File "scripts/train_fcn_adda.py", line 151, in main
-    batch_size=batch, shuffle=True, num_workers=2)
-  File "/home/MSAI/szhang064/cycada/cycada/data/adda_datasets.py", line 26, in __init__
-    net_transform, downscale) 
-  File "/home/MSAI/szhang064/cycada/cycada/data/data_loader.py", line 36, in get_transform_dataset
-    target_transform=target_transform)
-  File "/home/MSAI/szhang064/cycada/cycada/data/data_loader.py", line 150, in get_fcn_dataset
-    return dataset_obj[name](rootdir, **kwargs)
-  File "/home/MSAI/szhang064/cycada/cycada/data/gta5.py", line 32, in __init__
-    self.ids = self.collect_ids()
-  File "/home/MSAI/szhang064/cycada/cycada/data/cyclegta5.py", line 16, in collect_ids
-    ids = GTA5.collect_ids(self)
-  File "/home/MSAI/szhang064/cycada/cycada/data/gta5.py", line 45, in collect_ids
-    splits = scipy.io.loadmat(os.path.join(self.root, 'split.mat'))
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 224, in loadmat
-    with _open_file_context(file_name, appendmat) as f:
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/contextlib.py", line 112, in __enter__
-    return next(self.gen)
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 17, in _open_file_context
-    f, opened = _open_file(file_like, appendmat, mode)
-  File "/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 45, in _open_file
-    return open(file_like, mode), True
-FileNotFoundError: [Errno 2] No such file or directory: '/home/MSAI/szhang064/images/cyclegta5/split.mat'
+/var/spool/slurmd/job64385/slurm_script: line 12: activate: No such file or directory
+/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/torch/nn/functional.py:3734: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+/home/MSAI/szhang064/miniconda3/envs/cycada/lib/python3.7/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
